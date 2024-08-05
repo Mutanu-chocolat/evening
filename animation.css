@@ -1,0 +1,45 @@
+body{
+margin: 0%;
+padding: 0%;
+}
+container{
+    width: 50%;
+    margin: 60px auto;
+
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    transition: all ease-in-out 2s;
+    animation:bounce 2s infinite;
+}
+@keyframes bounce{ 
+    5%{ background-color: chartreuse;}
+    20%{background-color: rgba(0, 255, 255, 0.464);
+   scale: 0.5; 
+    }
+    
+    50%{
+        background-color: darkgrey;
+        scale: 2;
+        rotate: 180deg;
+    }
+    80%{
+        background-color: black;
+    }
+
+}
+button:hover{
+    background-color: red;
+    color: bisque;
+    transform:rotate(90deg)scale(2)
+}
+input{
+    border:2px solid green;
+}
+#fname:focus{ 
+    border-color: blue;
+}
