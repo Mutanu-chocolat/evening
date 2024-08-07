@@ -1,0 +1,18 @@
+@font-face{
+    font-family: Oxanium;
+    scr:url(Oxanium\,Platypi\,Playfair_Display\,Roboto_Condensed\ \(1\).zip)
+}
+
+h1{
+    color: green;
+    letter-spacing: 1px;
+    font-family: oxanium;
+}
+p{
+    word-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    ;
+}

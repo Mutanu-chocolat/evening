@@ -1,0 +1,11 @@
+body{ 
+    background-color:rgb(132, 0, 255);
+    color: white;
+    background-image: linear-gradient(to right,
+     red,green,blue,yellow);
+     background-image: url(sunset.jpg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat ;
+     background-position: center;
+}
+/*online image|| download image*/
